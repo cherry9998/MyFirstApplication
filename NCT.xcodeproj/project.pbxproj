@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B16FB6E25C3289D005A33BB /* player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B16FB6D25C3289D005A33BB /* player.storyboard */; };
+		5B16FB7525C33027005A33BB /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B16FB7425C33027005A33BB /* PlayerViewController.swift */; };
+		5B16FB7925C334D3005A33BB /* SimplePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B16FB7825C334D3005A33BB /* SimplePlayer.swift */; };
 		5B21A18C25B1655500825607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B21A18B25B1655500825607 /* AppDelegate.swift */; };
 		5B21A18E25B1655500825607 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B21A18D25B1655500825607 /* SceneDelegate.swift */; };
-		5B21A19025B1655500825607 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B21A18F25B1655500825607 /* ViewController.swift */; };
 		5B21A19325B1655500825607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B21A19125B1655500825607 /* Main.storyboard */; };
 		5B21A19525B1655600825607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B21A19425B1655600825607 /* Assets.xcassets */; };
 		5B21A19825B1655600825607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B21A19625B1655600825607 /* LaunchScreen.storyboard */; };
+		5B2349BD25B1E9C10063070B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2349BC25B1E9C10063070B /* MainViewController.swift */; };
+		5B2349C025B1E9EA0063070B /* NCTInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2349BF25B1E9EA0063070B /* NCTInfo.swift */; };
+		5B2349C325B1E9FD0063070B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2349C225B1E9FD0063070B /* DetailViewController.swift */; };
+		5B2349C625B201990063070B /* NCTViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2349C525B201990063070B /* NCTViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B16FB6D25C3289D005A33BB /* player.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = player.storyboard; sourceTree = "<group>"; };
+		5B16FB7425C33027005A33BB /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		5B16FB7825C334D3005A33BB /* SimplePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePlayer.swift; sourceTree = "<group>"; };
 		5B21A18825B1655500825607 /* NCT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B21A18B25B1655500825607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B21A18D25B1655500825607 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B21A18F25B1655500825607 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B21A19225B1655500825607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B21A19425B1655600825607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B21A19725B1655600825607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B21A19925B1655600825607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B2349BC25B1E9C10063070B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5B2349BF25B1E9EA0063070B /* NCTInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCTInfo.swift; sourceTree = "<group>"; };
+		5B2349C225B1E9FD0063070B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5B2349C525B201990063070B /* NCTViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCTViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B16FB7125C32FC3005A33BB /* player */ = {
+			isa = PBXGroup;
+			children = (
+				5B16FB6D25C3289D005A33BB /* player.storyboard */,
+				5B16FB7425C33027005A33BB /* PlayerViewController.swift */,
+				5B16FB7825C334D3005A33BB /* SimplePlayer.swift */,
+			);
+			path = player;
+			sourceTree = "<group>";
+		};
+		5B16FB7225C32FD5005A33BB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5B21A19125B1655500825607 /* Main.storyboard */,
+				5B2349BC25B1E9C10063070B /* MainViewController.swift */,
+				5B2349C225B1E9FD0063070B /* DetailViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5B16FB7325C32FF1005A33BB /* NCTInfo */ = {
+			isa = PBXGroup;
+			children = (
+				5B2349C525B201990063070B /* NCTViewModel.swift */,
+				5B2349BF25B1E9EA0063070B /* NCTInfo.swift */,
+			);
+			path = NCTInfo;
+			sourceTree = "<group>";
+		};
 		5B21A17F25B1655500825607 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +97,14 @@
 		5B21A18A25B1655500825607 /* NCT */ = {
 			isa = PBXGroup;
 			children = (
+				5B16FB7325C32FF1005A33BB /* NCTInfo */,
+				5B16FB7225C32FD5005A33BB /* Home */,
 				5B21A18B25B1655500825607 /* AppDelegate.swift */,
 				5B21A18D25B1655500825607 /* SceneDelegate.swift */,
-				5B21A18F25B1655500825607 /* ViewController.swift */,
-				5B21A19125B1655500825607 /* Main.storyboard */,
 				5B21A19425B1655600825607 /* Assets.xcassets */,
 				5B21A19625B1655600825607 /* LaunchScreen.storyboard */,
 				5B21A19925B1655600825607 /* Info.plist */,
+				5B16FB7125C32FC3005A33BB /* player */,
 			);
 			path = NCT;
 			sourceTree = "<group>";
@@ -126,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B21A19825B1655600825607 /* LaunchScreen.storyboard in Resources */,
+				5B16FB6E25C3289D005A33BB /* player.storyboard in Resources */,
 				5B21A19525B1655600825607 /* Assets.xcassets in Resources */,
 				5B21A19325B1655500825607 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B21A19025B1655500825607 /* ViewController.swift in Sources */,
+				5B2349BD25B1E9C10063070B /* MainViewController.swift in Sources */,
+				5B2349C025B1E9EA0063070B /* NCTInfo.swift in Sources */,
+				5B2349C625B201990063070B /* NCTViewModel.swift in Sources */,
+				5B16FB7525C33027005A33BB /* PlayerViewController.swift in Sources */,
+				5B16FB7925C334D3005A33BB /* SimplePlayer.swift in Sources */,
+				5B2349C325B1E9FD0063070B /* DetailViewController.swift in Sources */,
 				5B21A18C25B1655500825607 /* AppDelegate.swift in Sources */,
 				5B21A18E25B1655500825607 /* SceneDelegate.swift in Sources */,
 			);
